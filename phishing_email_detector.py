@@ -25,7 +25,7 @@ subject_lower = subject.lower()
 if "urgent" in subject_lower or "immediate action required" in subject_lower:
     print("HIGH RISK: Possible phishing attempt.")
 elif "win" in subject_lower or "free" in subject_lower:
-    print("MEDIUM RISK: Suspicious offer detected. ")
+    print("MEDIUM RISK: Suspicious offer detected.")
 elif "password reset" in subject_lower:
     print("LOW RISK: Verify legitimacy with sender.")
 else:
